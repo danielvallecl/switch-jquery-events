@@ -17,7 +17,7 @@ $(document).on("ready", function() {
     }
 
     function switchOnOff() {
-      $(this).toggleClass("on off");
+      button.toggleClass("on off");
     }
 
     function buttonClick() {
@@ -26,5 +26,5 @@ $(document).on("ready", function() {
       changeText();
     };
 
-    $(this).on('click', buttonClick);
+    button.on('click', buttonClick);
 });
